@@ -10,6 +10,13 @@ module BookStore
           books = Book.all
           present books
         end
+        desc 'Return a specific book'
+        route_param :id do
+        get do
+          book = Book.find(params[:id])
+          present book
+          end
+        end
       end
     end
   end
