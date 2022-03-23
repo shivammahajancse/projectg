@@ -1,0 +1,15 @@
+current directory: /Users/shivammahajan/grape/grape/grape/.bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/shivammahajan/.rbenv/versions/3.0.3/bin/ruby -I /Users/shivammahajan/.rbenv/versions/3.0.3/lib/ruby/3.0.0 -r ./siteconf20220321-7907-3r76za.rb extconf.rb
+creating Makefile
+
+current directory: /Users/shivammahajan/grape/grape/grape/.bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /Users/shivammahajan/grape/grape/grape/.bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/shivammahajan/grape/grape/grape/.bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20220321-7907-o7yp0w/skiptrace/internal

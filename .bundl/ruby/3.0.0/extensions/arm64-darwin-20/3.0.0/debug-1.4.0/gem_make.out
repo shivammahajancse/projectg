@@ -1,0 +1,16 @@
+current directory: /Users/shivammahajan/grape/grape/grape/.bundl/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+/Users/shivammahajan/.rbenv/versions/3.0.3/bin/ruby -I /Users/shivammahajan/.rbenv/versions/3.0.3/lib/ruby/3.0.0 -r ./siteconf20220321-5498-eohlno.rb extconf.rb
+creating Makefile
+
+current directory: /Users/shivammahajan/grape/grape/grape/.bundl/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\= clean
+
+current directory: /Users/shivammahajan/grape/grape/grape/.bundl/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/shivammahajan/grape/grape/grape/.bundl/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20220321-5498-ks6y5m/debug
